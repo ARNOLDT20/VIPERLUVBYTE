@@ -73,7 +73,7 @@ ezra({ nomCom: "logo", categorie: "Fredi-Search", reaction: "🤭" }, async (des
         forwardedNewsletterMessageInfo: {
         newsletterJid: '120363420222821450@newsletter',
         newsletterName: "blaze tech",
-        serverMessageId: 143,
+         serverMessageId: 143,
       },
     };
 

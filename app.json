@@ -1,6 +1,6 @@
 {
-  "name": "💦VIPERLUVBYTE💨 MULTI DEVICE",
-  "description": "💦VIPERLUVBYTE Whatsapp device bot by T20_STARBOY to help Whatsapp users...",
+  "name": "✨VIPERLUVBYTE✨ MULTI DEVICE",
+  "description": "VIPERLUVBYTE Whatsapp device bot made by T20_STARBOY to help Whatsapp users to enjoy while helping...",
   "keywords": [
     "bot",
     "node",
@@ -55,7 +55,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "💲YOUR STATUS VIEWED BY 💦VIPERLUVBYTE💨 SUCCESSFUL 😇✅✅",
+      "value": "Your Status Seen By VIPERLUVBYTE",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -95,7 +95,7 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number(s) (exclude '+' and area code). Multiple numbers allowed separated by comma",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
       "value": "255627417402,255768418867,255625606454",
       "required": false
     },

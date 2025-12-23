@@ -27,7 +27,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `VIPERLUVBYTE PLANET TIKTOK SEARCH\n\n`;
+    let searchMessage = `VIPERLUVBYTE TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {
@@ -93,7 +93,7 @@ ezra({
     }
 
     // Construct the search message
-    let searchMessage = `VIPERLUVBYTE PLANET TWITTER SEARCH\n\n`;
+    let searchMessage = `LUCKY MD XFORCE PLANET TWITTER SEARCH\n\n`;
     searchMessage += `Creator: ${response.data.creator}\n\n`;  // Include the creator info
 
     // Loop through search results and append details to the message

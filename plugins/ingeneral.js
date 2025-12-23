@@ -21,7 +21,7 @@ ezra({
       text: news,
       contextInfo: {
          isForwarded: true,
-        forwardedNewsletterMessageInfo: {
+         forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
          newsletterName: "blaze tech",
          serverMessageId: 143,
@@ -75,16 +75,16 @@ ezra({
     
     const data = response.data;
     const messageText = `
-  📖 ✨VIPERLUVBYTE✨ HOLY BIBLE 📖
+📖 ☢️LUCKY MD X-FORCE☢️ HOLY BIBLE 📖
 
-  ⁠ *_WE'RE READING:_* ${data.reference}
+⁠ *_WE'RE READING:_* ${data.reference}
 
-  ⁠ *_NUMBER OF VERSES:_* ${data.verses.length}
+⁠ *_NUMBER OF VERSES:_* ${data.verses.length}
 
-  ⁠ *_NOW READ:_* ${data.text}
+⁠ *_NOW READ:_* ${data.text}
 
-  ⁠ *_LANGUAGE:_* ${data.translation_name}
-   `;
+⁠ *_LANGUAGE:_* ${data.translation_name}
+ `;
     
     await zk.sendMessage(dest, {
       text: messageText,
@@ -107,7 +107,7 @@ ezra({
          newsletterJid: '120363420222821450@newsletter',
          newsletterName: "blaze tech",
          serverMessageId: 143,
-          },
+        },
       },
     });
   }
@@ -173,7 +173,7 @@ ezra({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*Wait ☢️LUCKY MD X-FORCE☢️ is getting your pair code ...*";
+    const replyText = "*Wait ✨VIPERLUVBYTE✨ is getting your pair code ...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -191,8 +191,8 @@ ezra({
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },
@@ -233,7 +233,7 @@ ezra({
     const thumb = data.image; // Assuming the API returns an 'image' property for the element thumbnail
 
     const formattedMessage = `
-  *✨VIPERLUVBYTE✨ ELEMENT INFO:*
+*☢️LUCKY MD X-FORCE☢️ ELEMENT INFO:*
 🚀 *Name:* ${data.name}
 🚀 *Symbol:* ${data.symbol}
 🚀 *Atomic Number:* ${data.atomic_number}
@@ -304,7 +304,7 @@ ezra({
 
     await zk.sendMessage(dest, {
       text: githubMessage,
-      contextInfo: {
+        contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
@@ -361,13 +361,13 @@ You can use this email for temporary purposes. I will notify you if you receive 
             await zk.sendMessage(dest, {
               text: `You have received a new email!\n\nFrom: ${emailData.from}\nSubject: ${emailData.subject}\n\n${emailData.textBody}\nLinks found:\n${linksText}`,
               contextInfo: {
-               isForwarded: true,
-               forwardedNewsletterMessageInfo: {
-               newsletterJid: '120363420222821450@newsletter',
-               newsletterName: "blaze tech",
-               serverMessageId: 143,
-                 }
-                    }
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
+         serverMessageId: 143,
+                }
+              }
             }, { quoted: messageQuote });
           }
         }
@@ -385,13 +385,13 @@ You can use this email for temporary purposes. I will notify you if you receive 
       zk.sendMessage(dest, {
         text: "Your temporary email session has ended. Please create a new temporary email if needed.",
         contextInfo: {
-         isForwarded: true,
-         forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
-         serverMessageId: 143,
+           isForwarded: true,
+           forwardedNewsletterMessageInfo: {
+           newsletterJid: '120363420222821450@newsletter',
+           newsletterName: "blaze tech",
+           serverMessageId: 143,
+            }
           }
-        }
       }, { quoted: messageQuote });
     }, 600000); // 10 minutes in milliseconds
 
@@ -402,8 +402,8 @@ You can use this email for temporary purposes. I will notify you if you receive 
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         }
       }
@@ -468,13 +468,13 @@ ezra({
       await zk.sendMessage(dest, {
         text: `📜 *Hadith of the Day:*\n\n"${hadithText}"`,
         contextInfo: {
-         isForwarded: true,
-         forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
-         serverMessageId: 143,
+           isForwarded: true,
+           forwardedNewsletterMessageInfo: {
+           newsletterJid: '120363420222821450@newsletter',
+           newsletterName: "blaze tech",
+           serverMessageId: 143,
+            },
           },
-        },
       });
     } else {
       throw new Error("Invalid response from Hadith API");

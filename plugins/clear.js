@@ -46,7 +46,7 @@ ezra(
       await zk.sendMessage(
         dest,
         {
-          text: `Success cleared ${deletedCount} bot message ${deletedCount === 1 ? "" : "𝐻"}!\n\n> Powered by VIPERLUVBYTE`,
+          text: `Success cleared ${deletedCount} bot message ${deletedCount === 1 ? "" : "𝐻"}!\n\n> Powered by FredieTech`,
         },
         { quoted: ms }
       );

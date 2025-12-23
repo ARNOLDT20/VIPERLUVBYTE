@@ -12,7 +12,7 @@ ezra({
   const { repondre, arg, ms } = commandeOptions;
   const reference = arg.join(" ");
   
-  if (!reference) {
+    if (!reference) {
     return repondre("Please specify the surah number or name.", {
       contextInfo: {
          isForwarded: true,
@@ -43,7 +43,7 @@ ezra({
     
     const data = response.data.data;
     const messageText = `
-  ᬑ *VIPER QURAN SURAH* ᬒ
+  ᬑ *VIPERLUVBYTE QURAN SURAH* ᬒ
 
 *🕌 Quran: The Holy Book*
 📜 *Surah:* 🕌❤️${data.number}: ${data.asma.ar.long} (${data.asma.en.long})❤️🕌
@@ -96,7 +96,7 @@ ezra({
   const { repondre, arg, ms } = commandeOptions;
   const reference = arg.join(" ");
   
-  if (!reference) {
+    if (!reference) {
     return repondre("Please specify the surah number or name.", {
       contextInfo: {
          isForwarded: true,
@@ -127,7 +127,7 @@ ezra({
     
     const data = response.data.data;
     const messageText = `
-ᬑ *LUCKY QURAN SURAH* ᬒ
+  ᬑ *VIPERLUVBYTE QURAN SURAH* ᬒ
 
 *🕌 Quran: The Holy Book*
 📜 *Surah:* 🕌❤️${data.number}: ${data.asma.ar.long} (${data.asma.en.long})❤️🕌

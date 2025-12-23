@@ -15,7 +15,7 @@
 // **bot start npm read fredi.server.com root @Lucky-md-xforce : "^3.0.0" ***//
 // prepare everything pass lucky
 // frediete loaded updates 
-// bot name is VIPERLUVBYTE
+// bot name is LUCKY MD XFORCE
 
 
 "use strict";
@@ -168,9 +168,9 @@ setInterval(async () => {
     const callerId = callData[0].from;
 
     await zk.rejectCall(callId, callerId);
-        await zk.sendMessage(callerId, {
-            text: "Hello😊, I'm VIPERLUVBYTE, a personal assistant — please try again later"
-        });
+    await zk.sendMessage(callerId, {
+      text: "Hello😊,am Lucky-Md-Xforce a personal assistant,please try again later"
+    });
   }
 });
 
@@ -925,7 +925,7 @@ zk.ev.on("messages.upsert", async (m) => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./lib/sudo");
             const nomAuteurMessage = ms.pushName;
-            const fredi = '255627417402';
+            const fredi = '255752593977';
             const ezra = '255620814108';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, fredi, ezra, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
@@ -934,7 +934,7 @@ zk.ev.on("messages.upsert", async (m) => {
             
             var dev = [fredi, ezra,].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tVIPERLUVBYTE MESSAGES");
+            console.log("\tLUCKY XFORCE MESSAGES");
             console.log("=========== NEW CONVERSATION ===========");
             if (verifGroupe) {
                 console.log("MESSAGE FROM GROUP : " + nomGroupe);
@@ -1395,7 +1395,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://files.catbox.moe/1q3yrw.jpg';
+        ppgroup = 'https://files.catbox.moe/d83yip.png';
     }
 
     try {
@@ -1572,14 +1572,14 @@ zk.ev.on('group-participants.update', async (group) => {
 ║ Prefix: [ ${prefixe} ]
 ║ Mode: ${md}
 ║ Model: V 5.0.9
-║ Bot Name: Lucky-Md-Bot 
-║ Owner: FrediEzra
+║ Bot Name: VIPERLUVBYTE 
+║ Owner: T20_STARBOY
 ╚═════ ❖ •✦
 -_-<-<-<-<-<-<-<--<-<-<-<-<-<
 
 *🪀Follow my channel for updates and free hacks🙃*
  
-> https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
+> https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d
 
                 
                  `;

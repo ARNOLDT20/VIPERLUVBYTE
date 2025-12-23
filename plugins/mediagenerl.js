@@ -16,10 +16,10 @@ ezra({nomCom : "igdl" , categorie : "Fredi-Download"},async (dest , zk , command
     let igvid = await axios('https://api.vihangayt.com/downloader/ig?url='+link)
 
     if (igvid.data.data.data[0].type == 'video') {
-    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "IG video downloader — Powered by ✨VIPERLUVBYTE✨",gifPlayback : false },{quoted : ms}) 
+    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *☢️LUCKY MD X-FORCE☢️*",gifPlayback : false },{quoted : ms}) 
     }
     else {
-      zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "IG image downloader — Powered by ✨VIPERLUVBYTE✨"})
+        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *☢️LUCKY MD X-FORCE☢️*"})
     }
   
   } catch (e) {repondre("erreur survenue lors du téléchargement \n " + e)}
@@ -50,7 +50,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-      zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'Facebook video downloader — Powered by ✨VIPERLUVBYTE✨' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *☢️LUCKY MD X-FORCE☢️*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -114,7 +114,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'Facebook video downloader — Powered by ✨VIPERLUVBYTE✨' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *☢️LUCKY MD X-FORCE☢️*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)

@@ -26,7 +26,7 @@ const toFancyLowercaseFont = (text) => {
 
 ezra({ 
     nomCom: "menu", 
-    categorie: "VIPERLUVBYTE-Menu", 
+    categorie: "Fredi-Menu", 
     reaction: "☢️", 
     nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
@@ -58,12 +58,12 @@ ezra({
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :*  ✨VIPERLUVBYTE✨
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ✨VIPERLUVBYTE✨*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ :* T20_STARBOY
+*┋* *ᴏᴡɴᴇʀ ɪs : T20_STARBOY*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -82,7 +82,7 @@ ezra({
     }
     
     menuMsg += `
-> @made by VIPERLUVBYTE 2025\n`;
+> @made by FredieTech 2025\n`;
 
     try {
         await zk.sendMessage(dest, { 
@@ -98,7 +98,7 @@ ezra({
                 forwardingScore: 999,
                 externalAdReply: {
                     title: "✨VIPERLUVBYTE✨",
-                    body: "🔑🗝️ Command List",
+                    body: "🔹 Stylish Command Menu",
                     thumbnailUrl: "https://files.catbox.moe/d83yip.png",
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                     mediaType: 1,

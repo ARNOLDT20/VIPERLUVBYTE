@@ -133,8 +133,7 @@ ezra(
                 path.join(__dirname, "..", "media", "deleted-message.jpg")
             )
         );
-        const tumbUrl =
-            "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg";
+        const tumbUrl = "https://files.catbox.moe/d83yip.png";
         let menu = `${mono}Hello✌️ ${ms.pushName}
 ${timewisher(time)}
 
@@ -173,7 +172,7 @@ ${timewisher(time)}
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+                                        "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }

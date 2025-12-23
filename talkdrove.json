@@ -1,8 +1,8 @@
 {
   "bot-name": "VIPERLUVBYTE",
-  "description": "VIPERLUVBYTE Whatsapp device bot made by T20_STARBOY to help Whatsapp users enjoy and interact...",
+  "description": "VIPERLUVBYTE Whatsapp device bot made by T20_STARBOY to help Whatsapp users to enjoy while helping...",
   "logo": "https://files.catbox.moe/d83yip.png",
-  "keywords": ["VIPERLUVBYTE", "Lucky-Md", "mdtech"],
+  "keywords": ["Fredi-Ezra", "Lucky-Md", "mdtech"],
   "documentation-link": "https://lucky-xforce-session-site.onrender.com",
   "owner-verification":"Atarimo117@gmail.com",
   "env": {
@@ -71,7 +71,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "VIPERLUVBYTE",
+      "value": "VIPER MD",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -110,7 +110,7 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number(s) (exclude '+' and area code). Multiple numbers allowed separated by comma",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
       "value": "255627417402,255768418867,255625606454",
       "required": false
     },

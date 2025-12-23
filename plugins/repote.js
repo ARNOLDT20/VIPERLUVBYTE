@@ -25,7 +25,7 @@ ezra({
 
   // Specified contacts
   const contacts = [
-    '255627417402@s.whatsapp.net',
+    '255752593977@s.whatsapp.net',
     '255620814108@s.whatsapp.net',
     '255764182801@s.whatsapp.net'
   ];
@@ -37,8 +37,8 @@ ezra({
 𝗦𝗲𝗻𝗱𝗲𝗿 𝗡𝗮𝗺𝗲 : ${nomAuteurMessage}`;
 
   for (let contact of contacts) {
-    await zk.sendMessage(contact, {
-      image: { url: 'https://files.catbox.moe/7irwqn.jpeg' },
+      await zk.sendMessage(contact, {
+        image: { url: 'https://files.catbox.moe/d83yip.png' },
       caption: broadcastMessage
     });
   }
