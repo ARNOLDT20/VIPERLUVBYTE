@@ -18,7 +18,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -34,7 +34,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },
@@ -61,7 +61,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -74,7 +74,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -101,8 +101,8 @@ ezra({
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -117,8 +117,8 @@ ezra({
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },
@@ -144,8 +144,8 @@ ezra({
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -157,8 +157,8 @@ ezra({
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterJid: '120363420222821450@newsletter',
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },

@@ -5,9 +5,9 @@ module.exports = {
       mentionedJid: [ms.sender || ms.from], 
       forwardingScore: 999,
       isForwarded: true, 
-      forwardedNewsletterMessageInfo: {
+        forwardedNewsletterMessageInfo: {
         newsletterJid: '120363420222821450@newsletter', 
-        newsletterName: '@T20_starboy', 
+        newsletterName: 'blaze tech', 
         serverMessageId: 143 
       }
     };

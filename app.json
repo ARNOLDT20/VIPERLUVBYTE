@@ -1,13 +1,13 @@
 {
-  "name": "💦VIPER MD💨 MULTI DEVICE",
-  "description": "💦VIPER MD Whatsapp device bot by T20_starboy to help Whatsapp users...",
+  "name": "💦VIPERLUVBYTE💨 MULTI DEVICE",
+  "description": "💦VIPERLUVBYTE Whatsapp device bot by T20_STARBOY to help Whatsapp users...",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/82aewo.png",
+  "logo": "https://files.catbox.moe/d83yip.png",
   "repository": "https://github.com/ARNOLDT20/Viper",
   "succes_url": "/",
   "stack": "container",
@@ -55,7 +55,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "💲YOUR STATUS VIEWED BY 💦VIPER MD💨 SUCCESSFUL 😇✅✅",
+      "value": "💲YOUR STATUS VIEWED BY 💦VIPERLUVBYTE💨 SUCCESSFUL 😇✅✅",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -86,7 +86,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "T20_starboy",
+      "value": "T20_STARBOY",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -95,8 +95,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255627417402",
+      "description": "Your phone number(s) (exclude '+' and area code). Multiple numbers allowed separated by comma",
+      "value": "255627417402,255768418867,255625606454",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {

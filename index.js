@@ -15,7 +15,7 @@
 // **bot start npm read fredi.server.com root @Lucky-md-xforce : "^3.0.0" ***//
 // prepare everything pass lucky
 // frediete loaded updates 
-// bot name is VIPER MD
+// bot name is VIPERLUVBYTE
 
 
 "use strict";
@@ -168,9 +168,9 @@ setInterval(async () => {
     const callerId = callData[0].from;
 
     await zk.rejectCall(callId, callerId);
-    await zk.sendMessage(callerId, {
-      text: "Hello😊,am VIPER MD a personal assistant,please try again later"
-    });
+        await zk.sendMessage(callerId, {
+            text: "Hello😊, I'm VIPERLUVBYTE, a personal assistant — please try again later"
+        });
   }
 });
 
@@ -934,7 +934,7 @@ zk.ev.on("messages.upsert", async (m) => {
             
             var dev = [fredi, ezra,].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tVIPER MD MESSAGES");
+            console.log("\tVIPERLUVBYTE MESSAGES");
             console.log("=========== NEW CONVERSATION ===========");
             if (verifGroupe) {
                 console.log("MESSAGE FROM GROUP : " + nomGroupe);

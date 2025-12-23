@@ -70,10 +70,10 @@ ezra({ nomCom: "logo", categorie: "Fredi-Search", reaction: "🤭" }, async (des
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
          isForwarded: true,
-         forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
-         serverMessageId: 143,
+        forwardedNewsletterMessageInfo: {
+        newsletterJid: '120363420222821450@newsletter',
+        newsletterName: "blaze tech",
+        serverMessageId: 143,
       },
     };
 

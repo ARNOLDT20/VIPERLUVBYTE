@@ -23,7 +23,7 @@ ezra({
          isForwarded: true,
         forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -50,7 +50,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -66,7 +66,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },
@@ -75,16 +75,16 @@ ezra({
     
     const data = response.data;
     const messageText = `
-📖 ☢️LUCKY MD X-FORCE☢️ HOLY BIBLE 📖
+  📖 ✨VIPERLUVBYTE✨ HOLY BIBLE 📖
 
-⁠ *_WE'RE READING:_* ${data.reference}
+  ⁠ *_WE'RE READING:_* ${data.reference}
 
-⁠ *_NUMBER OF VERSES:_* ${data.verses.length}
+  ⁠ *_NUMBER OF VERSES:_* ${data.verses.length}
 
-⁠ *_NOW READ:_* ${data.text}
+  ⁠ *_NOW READ:_* ${data.text}
 
-⁠ *_LANGUAGE:_* ${data.translation_name}
- `;
+  ⁠ *_LANGUAGE:_* ${data.translation_name}
+   `;
     
     await zk.sendMessage(dest, {
       text: messageText,
@@ -92,7 +92,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -103,9 +103,9 @@ ezra({
     await repondre("An error occurred while fetching the Bible passage. Please try again later.", {
       contextInfo: {
          isForwarded: true,
-        forwardedNewsletterMessageInfo: {
+         forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
       },
@@ -143,7 +143,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },
@@ -233,7 +233,7 @@ ezra({
     const thumb = data.image; // Assuming the API returns an 'image' property for the element thumbnail
 
     const formattedMessage = `
-  *☢️VIPER MD☢️ ELEMENT INFO:*
+  *✨VIPERLUVBYTE✨ ELEMENT INFO:*
 🚀 *Name:* ${data.name}
 🚀 *Symbol:* ${data.symbol}
 🚀 *Atomic Number:* ${data.atomic_number}
@@ -251,7 +251,7 @@ Regards ${conf.OWNER_NAME} `;
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -308,7 +308,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         },
       },
@@ -339,7 +339,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
         }
       }
@@ -364,9 +364,9 @@ You can use this email for temporary purposes. I will notify you if you receive 
                isForwarded: true,
                forwardedNewsletterMessageInfo: {
                newsletterJid: '120363420222821450@newsletter',
-               newsletterName: "@T20_starboy",
+               newsletterName: "blaze tech",
                serverMessageId: 143,
-                      }
+                 }
                     }
             }, { quoted: messageQuote });
           }

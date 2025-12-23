@@ -26,7 +26,7 @@ const toFancyLowercaseFont = (text) => {
 
 ezra({ 
     nomCom: "menu", 
-    categorie: "Fredi-Menu", 
+    categorie: "VIPERLUVBYTE-Menu", 
     reaction: "☢️", 
     nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
@@ -53,17 +53,17 @@ ezra({
 
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
-    const img = 'https://files.catbox.moe/5x1y2z.png';
-    const imgs = 'https://files.catbox.moe/5x1y2z.png';
+    const img = 'https://files.catbox.moe/d83yip.png';
+    const imgs = 'https://files.catbox.moe/d83yip.png';
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ☢️VIPER MD☢️*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :*  ✨VIPERLUVBYTE✨
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ ɪs : T20_starboy*
+*┋* *ᴏᴡɴᴇʀ :* T20_STARBOY
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -82,24 +82,24 @@ ezra({
     }
     
     menuMsg += `
-> @made by FredieTech 2025\n`;
+> @made by VIPERLUVBYTE 2025\n`;
 
     try {
         await zk.sendMessage(dest, { 
-            image: { url: "https://files.catbox.moe/82aewo.png" },
+            image: { url: "https://files.catbox.moe/d83yip.png" },
             caption: infoMsg + menuMsg,
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363420222821450@newsletter",
-                    newsletterName: "@T20_starboy",
+                    newsletterName: "blaze tech",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "☢️VIPER MD☢️",
+                    title: "✨VIPERLUVBYTE✨",
                     body: "🔑🗝️ Command List",
-                    thumbnailUrl: "https://files.catbox.moe/82aewo.png",
+                    thumbnailUrl: "https://files.catbox.moe/d83yip.png",
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d",
                     mediaType: 1,
                     renderLargerThumbnail: true

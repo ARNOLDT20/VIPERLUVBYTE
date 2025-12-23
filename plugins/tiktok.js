@@ -27,7 +27,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `VIPER MD PLANET TIKTOK SEARCH\n\n`;
+    let searchMessage = `VIPERLUVBYTE PLANET TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {
@@ -54,7 +54,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },
@@ -93,7 +93,7 @@ ezra({
     }
 
     // Construct the search message
-    let searchMessage = `VIPER MD PLANET TWITTER SEARCH\n\n`;
+    let searchMessage = `VIPERLUVBYTE PLANET TWITTER SEARCH\n\n`;
     searchMessage += `Creator: ${response.data.creator}\n\n`;  // Include the creator info
 
     // Loop through search results and append details to the message
@@ -115,7 +115,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           },
         },

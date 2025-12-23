@@ -92,13 +92,13 @@ ezra({ nomCom: "url", categorie: "General-Fredi", reaction: "👨🏿‍💻" },
         // Respond with the URL based on media type
         switch (mediaType) {
           case 'image':
-            repondre(`VIPER MD url: ${catboxUrl}`);
+            repondre(`VIPERLUVBYTE url: ${catboxUrl}`);
             break;
           case 'video':
-            repondre(`VIPER MD url: ${catboxUrl}`);
+            repondre(`VIPERLUVBYTE url: ${catboxUrl}`);
             break;
           case 'audio':
-            repondre(`VIPER MD url: ${catboxUrl}`);
+            repondre(`VIPERLUVBYTE url: ${catboxUrl}`);
             break;
             default:
                 repondre('An unknown error occurred.');
@@ -145,7 +145,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"VIPER MD",
+      pack:"VIPERLUVBYTE",
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -169,7 +169,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"VIPER MD", // pack stick
+      pack:"VIPERLUVBYTE", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -225,7 +225,7 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
          let stickerMess = new Sticker(stick, {
-           pack: "VIPER MD",
+           pack: "VIPERLUVBYTE",
             
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
@@ -261,7 +261,7 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
          let stickerMess = new Sticker(stick, {
-           pack: "VIPER MD",
+           pack: "VIPERLUVBYTE",
             
             type: StickerTypes.FULL,
             categories: ["🤩", "🎉"],
@@ -327,7 +327,7 @@ ezra({ nomCom: "write", categorie: "Fredi-Conversion", reaction: "👨🏿‍�
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'VIPER MD',
+      author: 'VIPERLUVBYTE',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",

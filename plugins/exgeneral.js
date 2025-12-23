@@ -38,12 +38,12 @@ ezra({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: `DOWNLOAD AND ENJOY BY ☢️VIPER MD☢️`,
+        caption: `DOWNLOAD AND ENJOY BY ✨VIPERLUVBYTE✨`,
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
+         newsletterName: "blaze tech",
          serverMessageId: 143,
           }
         }

@@ -32,14 +32,14 @@ ezra({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363420222821450@newsletter",
-          'newsletterName': "@T20_starboy",
+          'newsletterName': "blaze tech",
           'serverMessageId': 0x8f
         },
         'forwardingScore': 0x3e7,
         'externalAdReply': {
-          'title': "VIPER MD",
+          'title': "VIPERLUVBYTE",
           'body': "⚫ Pong: " + _0x4950ba + "ms\n📅 *Date:* " + _0x4c687e + "\n⏰ *Time:* " + _0xb5466b,
-          'thumbnailUrl': "https://files.catbox.moe/82aewo.png",
+          'thumbnailUrl': "https://files.catbox.moe/d83yip.png",
           'mediaType': 0x1,
           'renderSmallThumbnail': true,
           'sourceUrl': "https://whatsapp.com/channel/0029Vb6H6jF9hXEzZFlD6F3d"
@@ -74,20 +74,20 @@ ezra({
     const gitdata = `> *ɴᴀᴍᴇ:*    ${conf.BOT}\n\n> *sᴛᴀʀs:*  ${data.stargazers_count}\n\n> *ғᴏʀᴋs:*  ${data.forks_count}\n\n> *ᴡᴀᴛᴄʜᴇʀs:*  ${data.watchers}\n\n> *ᴜᴘᴅᴀᴛᴇᴅ:*  ${updated}\n\n> *Repo:* ${data.html_url}\n\n_Powered by FrediEzra Tech Info_`;
 
     await zk.sendMessage(dest, {
-      image: { url: 'https://files.catbox.moe/82aewo.png' },
+      image: { url: 'https://files.catbox.moe/d83yip.png' },
       caption: gitdata,
       contextInfo: {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363420222821450@newsletter',
-          newsletterName: "@T20_starboy",
+          newsletterName: "blaze tech",
           serverMessageId: -1
         },
         forwardingScore: 999,
         externalAdReply: {
-          title: "VIPER MD",
+          title: "VIPERLUVBYTE",
           body: "🫧 repo link request 🫧",
-          thumbnailUrl: "https://files.catbox.moe/82aewo.png",
+          thumbnailUrl: "https://files.catbox.moe/d83yip.png",
           mediaType: 1,
           sourceUrl: data.html_url || "https://github.com/ARNOLDT20/Viper"
         }
@@ -103,7 +103,7 @@ ezra({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363420222821450@newsletter",
-          newsletterName: "@T20_starboy",
+          newsletterName: "blaze tech",
           serverMessageId: -1
         }
       }

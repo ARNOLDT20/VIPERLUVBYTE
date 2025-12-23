@@ -24,12 +24,12 @@ ezra({
     reaction: "🤦",
     aliases: ["panelist", "commandlist", "cmdlist", "list"],
     desc: "Get bot command list.",
-    categorie: "Fredi-Menu"
+    categorie: "VIPERLUVBYTE-Menu"
 }, async (dest, zk, context) => {
     const { respond, prefix, nomAuteurMessage } = context;
     const commands = require(__dirname + "/../fredi/ezra").cm;
 
-    let menu = '☢️VIPER MD☢️ COMMAND LIST\n\n';
+    let menu = '✨VIPERLUVBYTE✨ COMMAND LIST\n\n';
     let ezraList = [];
 
     // Loop through all commands to fetch the relevant information (commands, description, and aliases)
@@ -58,12 +58,12 @@ ezra({
     return await zk.sendMessage(dest, {
         text: menu,
         contextInfo: {
-         isForwarded: true,
-         forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363420222821450@newsletter',
-         newsletterName: "@T20_starboy",
-         serverMessageId: 143,
-            }
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363420222821450@newsletter',
+            newsletterName: "blaze tech",
+            serverMessageId: 143,
+                }
         }
     });
 });
